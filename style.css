@@ -54,4 +54,5 @@ section {
     border: black solid;
     border-width: 1px;
     box-shadow: 5px 5px 10px #818181;
+    border-radius: 50px;
 }
