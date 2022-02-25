@@ -37,10 +37,11 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: wrap;
 }
 
 .colunaImagem {
-    flex-basis: 15%;
+    flex-basis: 220px;
 }
 
 .colunaTexto {
