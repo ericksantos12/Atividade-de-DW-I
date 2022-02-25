@@ -25,13 +25,17 @@ img{
     max-width: 100%;
 }
 
+header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
 /* ------------- Classes ------------- */
 .titulo {
     color: #3387ab;
-    text-align: center;
 }
 
-/* ------------- Imagem e Texto Vertical ------------- */
+/*  Imagem e Texto Vertical (Flexbox)  */
 
 .bloco {
     display: flex;
@@ -46,6 +50,7 @@ img{
 
 .colunaTexto {
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 
