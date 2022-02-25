@@ -31,13 +31,14 @@ img{
     text-align: center;
 }
 
+/* ------------- Imagem e Texto Vertical ------------- */
+
 .bloco {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* ------------- Imagem e Texto Vertical ------------- */
 .colunaImagem {
     flex-basis: 15%;
 }
@@ -49,10 +50,13 @@ img{
 
 /* ------------- Sections ------------- */
 section {
+    margin: auto;
+    margin-bottom: 40px;
+    max-width: 1200px;
     background-color: white;
-    margin-bottom: 60px;
     border: black solid;
     border-width: 1px;
     box-shadow: 5px 5px 10px #818181;
     border-radius: 50px;
+
 }
