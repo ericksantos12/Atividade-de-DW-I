@@ -33,9 +33,10 @@ header {
 /* ------------- Classes ------------- */
 .titulo {
     color: #3387ab;
+    font-family: cursive;
 }
 
-/*  Imagem e Texto Vertical (Flexbox)  */
+/*  Imagem e Texto Horizontal (Flexbox)  */
 
 .bloco {
     display: flex;
